@@ -246,6 +246,7 @@ footer{
     width: 100%;
     margin-top:-18px;
     color: white;
+	overflow:none;
 
 
 
@@ -254,6 +255,7 @@ footer{
     margin:10px auto;
     padding: 10px 20px;
 	overflow:hidden;
+height:80%;
    
     
     
@@ -277,7 +279,7 @@ footer{
     margin:47px auto ;
     padding : 0 ;
     text-align: justify;
-	overflow:hidden;
+	
 }
 .section2 .announcments1
 {
@@ -290,7 +292,7 @@ footer{
   margin: 40px 1%;
     padding: 0;
     text-align: justify;
-overflow:hidden;
+
 }
 .section2 .announcments2
 {
@@ -303,7 +305,7 @@ overflow:hidden;
      margin: 40px 2%;
     padding: 0;
     text-align: justify;
-overflow:hidden;
+
     
 }
 .section2 .announcments3
@@ -318,7 +320,7 @@ overflow:hidden;
      margin: 40px 1%;
     padding: 0;
     text-align: justify;
- overflow:hidden;  
+
     
 }
 
