@@ -1,0 +1,499 @@
+/* #########global######### */
+*
+{
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4f4;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.button_1
+{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+.dark
+{
+    padding: 15px;
+    background: #35424a;
+    color:#ffff;
+    margin-top: 10px;
+    margin-bottom:10;
+}
+/* ####nav bar ###### */
+#navbar{
+    min-height: 40px;
+    background-color: brown;
+
+}
+#navbar #list1{
+    marign:100px;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#navbar ul li{
+     float:left;
+     margin:0px auto;
+     padding: 10px 5px;
+     border-right: coral solid 2px;
+     color: white;
+     list-style-type: none;
+     font-size:small;
+     text-transform: uppercase;
+     width:10%;
+     overflow: hidden;
+   
+}
+#navbar ul  #hell{
+     
+     width:15%;
+   
+}
+#navbar li:hover ,#navbar ul li:hover .institue ul li:hover{
+    background-color: rgba(141, 108, 32, 0.787);
+    z-index: 4;
+}
+#navbar ul li{
+    margin:0px auto;
+     z-index: 4;
+}
+#navbar ul li .institue 
+{
+    
+    border: 0;
+    
+ 
+   display: none;
+     z-index: 4;
+   
+     
+}
+.institue ul li,.institue2 ul li{
+    border-bottom: 1px solid orange !important;
+}
+
+#navbar ul li .institue2 
+{
+    
+    
+    display: none;
+     z-index: 4;
+  
+
+}
+#navbar ul li:hover .institue 
+{
+    display: block;
+    position: absolute;
+    background-color: brown;
+    margin-top: 10px;
+    margin-left: -15px;
+    width: 200px;
+    
+  
+  
+}
+#navbar ul li .institue ul li:hover .institue2
+{
+    display: block;
+    position: absolute;
+    background-color: brown;
+    margin-top: -10px;
+    margin-left: 190px;
+    width: 200px;
+     z-index: 5;
+
+    
+}
+#navbar ul li:hover .institue ul
+ {  
+    
+     display:block;
+     background-color: brown;
+     
+     
+}
+#navbar ul li:hover .institue ul li
+ {  
+    
+     
+    
+     width: 200px;
+     margin:0;
+     padding:5px;
+     border:0;
+     
+}
+.institue ul li
+{
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* #######header######## */
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header img{
+    margin-bottom:5px;
+    padding:0;
+    height: 100px;
+}
+
+header li
+{
+    float:left;
+    display: inline;
+    padding :0 20px 0 20px;
+}
+header #branding{
+    float:left;
+}
+header #branding h1,header #branding h2{
+    margin:10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+    
+}
+#mob{
+    display: none;
+    float:right
+}
+
+
+
+footer{
+    clear:both;
+    width:100%;
+    height:200px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #e8491d;
+    color: #fff;
+    text-align: center;
+    
+}
+.marquee
+{
+    width: 70%;
+    margin:10px auto;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 0;
+}
+
+
+.section1 .display-image
+{
+    float:left;
+    padding-top: 20px;    
+    width:60%;
+    min-height: 400px;
+    margin:40px  0 0 0 ;
+    background-color: yellow;
+}
+.label
+{
+    background-color: brown;
+    height: 45px;
+    border-radius: 8px 8px 0 0;
+    margin:0;
+    padding:1px 10px;
+    width: 100%;
+    margin-top:-18px;
+    color: white;
+
+
+
+}
+.data1{
+    margin:10px auto;
+    padding: 10px 20px;
+   
+    
+    
+}
+.data2{
+    margin:10px auto;
+    padding: 10px 20px;
+    overflow-y:scroll;
+    
+    height: 300px;
+}
+
+.section1 .announcments
+{
+    float:right;
+    background-color:white;
+
+    border-radius: 8px;
+    width:35%;
+    height: 420px;
+    margin:47px auto ;
+    padding : 0 ;
+    text-align: justify;
+}
+.section2 .announcments1
+{
+    float:left;
+    background-color:white;
+    
+    border-radius: 8px;
+    width:30%;
+    height: 600px;
+  margin: 40px 1%;
+    padding: 0;
+    text-align: justify;
+}
+.section2 .announcments2
+{
+    float:left;
+    background-color:white;
+   
+    border-radius: 8px;
+    width:30%;
+    height: 350px;
+     margin: 40px 2%;
+    padding: 0;
+    text-align: justify;
+    
+}
+.section2 .announcments3
+{
+    float: right;;
+    background-color:white;
+    
+    border-radius: 8px;
+    width:30%;
+    
+    height: 350px;
+     margin: 40px 1%;
+    padding: 0;
+    text-align: justify;
+   
+    
+}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  height: ;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@media screen and ( max-width:800px)
+{
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding:10px auto;
+    overflow: hidden;
+}
+#branding img{
+    display:none
+}
+
+#branding 
+{
+    font-size: smaller;
+}
+.section1 .display-image
+{
+    float:none
+    padding-top: 20px;    
+    width:100%;
+    min-height: 300px;
+    margin:0  0 0 0 ;
+    background-color: yellow;
+}
+.section1 .announcments
+{
+    clear: both;
+    background-color:white;
+
+    border-radius: 8px;
+    width:90%;
+    height: 350px;
+    margin:47px 5%;
+    padding : 0 ;
+    text-align: justify;
+
+}
+
+
+.section2 .announcments1
+{
+    clear: both;
+    background-color:white;
+    
+    border-radius: 8px;
+    width:90%;
+    height:400px;
+    margin: 10px 5% ;
+    padding: 0;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.section2 .announcments2
+{
+    clear: both;
+    background-color:white;
+   
+    border-radius: 8px;
+    width:90%;
+    height: 350px;
+    margin:10px 5%;
+    padding: 0;
+    text-align: justify;
+     margin-top: 20px;
+    
+}
+.section2 .announcments3
+{
+    clear: both;
+    background-color:white;
+    
+    border-radius: 8px;
+    width:90%;
+    height: 350px;
+    margin: 40px 5% ;
+    padding: 0;
+    text-align: justify;
+   
+    
+}
+#navbar ul li{
+     float:left;
+     margin:0px auto;
+     padding: 10px 5px;
+     border-right: coral solid 2px;
+     border-bottom: coral solid 1px;
+     color: white;
+     list-style-type: none;
+     font-size:small;
+     text-transform: uppercase;
+     width:20%;
+     overflow: hidden;
+   
+}
+#navbar ul #hell{
+    width:40%;
+}
+
+
+
+}
+

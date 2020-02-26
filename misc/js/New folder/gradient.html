@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>
+        use of the la
+    </title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="topnav" id="myname">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li class="topnav_right"><a href="#">SIGNUP</a></li>
+            <li class="topnav_right"><a href="#">SIGNIN</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="drop()">&#9776</a></li>
+            
+        </ul>
+    </nav>
+
+
+
+
+    <div class="container" id="grad">
+        
+
+
+    </div>
+
+
+
+
+
+
+
+<script>
+function drop()
+{
+    var x = document.getElementById('myname');
+        if(x.className === "topnav")
+        {
+            x.className += " responsive";
+        }
+        else
+        {
+            x.className = "topnav";
+        }
+    
+}
+
+</script>
+   
+</body>
+
+
+
+</html>
