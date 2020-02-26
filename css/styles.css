@@ -275,6 +275,7 @@ footer{
     margin:47px auto ;
     padding : 0 ;
     text-align: justify;
+	overflow:hidden;
 }
 .section2 .announcments1
 {
