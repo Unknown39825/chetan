@@ -3,6 +3,7 @@
 {
     box-sizing: border-box;
     user-select: none;
+	
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -233,7 +234,7 @@ footer{
     width:60%;
     min-height: 400px;
     margin:40px  0 0 0 ;
-    background-color: yellow;
+    
 }
 .label
 {
@@ -252,6 +253,7 @@ footer{
 .data1{
     margin:10px auto;
     padding: 10px 20px;
+	overflow:hidden;
    
     
     
@@ -288,6 +290,7 @@ footer{
   margin: 40px 1%;
     padding: 0;
     text-align: justify;
+overflow:hidden;
 }
 .section2 .announcments2
 {
@@ -300,6 +303,7 @@ footer{
      margin: 40px 2%;
     padding: 0;
     text-align: justify;
+overflow:hidden;
     
 }
 .section2 .announcments3
@@ -314,7 +318,7 @@ footer{
      margin: 40px 1%;
     padding: 0;
     text-align: justify;
-   
+ overflow:hidden;  
     
 }
 
@@ -417,7 +421,7 @@ footer{
     width:100%;
     min-height: 300px;
     margin:0  0 0 0 ;
-    background-color: yellow;
+    
 }
 .section1 .announcments
 {
